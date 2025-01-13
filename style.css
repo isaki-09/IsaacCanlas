@@ -377,7 +377,7 @@ article .icon {
   transition: all 0.3s ease;
 }
 
-.anchor:hover .project-img {
+.anchor-effect:hover .project-img {
   transform: scale(1.1);
 }
 
