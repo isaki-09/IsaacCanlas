@@ -87,13 +87,13 @@
     text-align: center;
   }
   .section__pic-container {
-    width: 250px; /* or a percentage like 60% */
-    height: 250px; /* keep it equal to maintain the aspect ratio */
-    margin: 0 auto 1.5rem; /* Centers the image and adds space below */
+    width: 250px;
+    height: 250px; 
+    margin: 0 auto 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Ensures no distortion */
+    overflow: hidden;
   }
   
   .section__text__p2 {
