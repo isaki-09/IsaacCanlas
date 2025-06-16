@@ -8,7 +8,8 @@
   }
   #contact,
   #projects {
-    height: fit-content;
+    padding: 2rem;
+    /* height: fit-content; */
   }
 }
 
@@ -46,6 +47,34 @@
     margin-top: 0;
   }
 }
+
+/* ----- */
+
+#projects .about-containers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+
+@media screen and (max-width: 992px) {
+  #projects .about-containers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  #projects .about-containers {
+    grid-template-columns: 1fr; /* 1 column on phones */
+  }
+}
+
+/* ----- */
 
 @media screen and (max-width: 600px) {
   #contact,
